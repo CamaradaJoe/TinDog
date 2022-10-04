@@ -1,0 +1,236 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+  position: relative;
+}
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3% 0 2%;
+  position: relative;
+
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+  position: relative;
+}
+
+body{
+  font-family: "Montserrat";
+}
+
+.container-fluid{
+  padding: 5% 15% 5%;
+}
+
+h1{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.75;
+  margin-top: 100px;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.navbar{
+  padding-bottom: 4rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.navbar-item{
+  padding: 0 25px;
+}
+
+.nav-link{
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+}
+
+.downloadBtnA{
+  margin: 5% 3% 5% 0;
+  --bs-btn-color: #fff;
+--bs-btn-bg: #212529;
+--bs-btn-border-color: #212529;
+--bs-btn-hover-color: #212529;
+--bs-btn-hover-bg: #fff;
+--bs-btn-hover-border-color: #373b3e;
+--bs-btn-focus-shadow-rgb: 66,70,73;
+--bs-btn-active-color: #fff;
+--bs-btn-active-bg: #4d5154;
+--bs-btn-active-border-color: #373b3e;
+--bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+--bs-btn-disabled-color: #fff;
+--bs-btn-disabled-bg: #212529;
+--bs-btn-disabled-border-color: #212529;
+}
+.downloadBtnG{
+  margin: 5% 3% 5% 0;
+}
+
+.iphoneGrid{
+  position: relative;
+}
+
+.iphoneImg{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 0;
+  left: 0;
+  right: 30%;
+
+}
+
+.features-icon{
+  color: #ff4c68;
+  font-size: 5rem;
+  padding-bottom: 1rem;
+}
+.features-icon:hover{
+  color: #fa2f4f;
+}
+
+.features-item{
+  text-align: center;
+  padding: 3% 6%;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.testimonialImg{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.pressImg{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+.carousel-item{
+  padding: 7% 15% 5%;
+}
+
+.carousel-indicators button{
+  height: .75rem !important;
+  width: .75rem !important;
+  border-radius: 100% !important;
+}
+
+.pricingCard{
+  padding: 3% 2%;
+}
+
+.pricingBtnOutline{
+  --bs-btn-color: #212529;
+  --bs-btn-border-color: #212529;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #ff4c68;
+  --bs-btn-hover-border-color: #212529;
+  --bs-btn-focus-shadow-rgb: 33,37,41;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #212529;
+  --bs-btn-active-border-color: #212529;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #212529;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #212529;
+  --bs-gradient: none;
+}
+.pricingBtn{
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #212529;
+  --bs-btn-border-color: ##212529;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #ff4c68;
+  --bs-btn-hover-border-color: #212529;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0a58ca;
+  --bs-btn-active-border-color: #212529;
+  --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #212529;
+  --bs-btn-disabled-border-color: #212529;
+}
+
+
+
+
+@media (min-width:992px) and (max-width:1286px) {
+  .iphoneImg{
+    transform: rotate(0deg);
+    position: absolute;
+
+    width: 100%
+  }
+  .titleGrid{
+    margin: auto 0 auto 0;
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+@media (max-width:992px) {
+  .iphoneImg{
+    display: none;
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+  padding: 3% 15%
+}
+
+#footer{
+  background-color: #fff;
+  padding: 100px 0 20px 0;
+  text-align: center;
+}
+
+.socials{
+  color: #ff4c68;
+  font-size: 2rem;
+}
+
+.socialsIcon{
+  padding: 1rem;
+}
+.socialsIcon:hover{
+  color: #212529;
+}
